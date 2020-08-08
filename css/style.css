@@ -10,25 +10,29 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 7.5%;
 }
 
 .about-me {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start; 
+  align-self: center;
+  border: .5px solid red;
+  width: 95vw;
 }
 
 .about-me .header {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
-  font-size: 5rem;
+  font-size: 14vw;
   color: var(--dark-grey, black);
+  margin-bottom: 2vh;
 }
 
 .about-me .description {
   font-family: 'Josefin Sans';
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 6vw;
+  line-height: 1.2;
   color: var(--grey, black);
 }
