@@ -10,7 +10,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 3%;
+  padding: 0 7.5%;
 }
 
 .about-me {
@@ -22,11 +22,13 @@ main {
 .about-me .header {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
+  font-size: 5rem;
   color: var(--dark-grey, black);
 }
 
 .about-me .description {
   font-family: 'Josefin Sans';
   font-weight: 400;
+  font-size: 2rem;
   color: var(--grey, black);
 }
