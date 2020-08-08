@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
 
-body {
-  background-color: wheat;
+:root {
+  --dark-grey: #40424a;
+  --grey: #808181;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.about-me .header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  color: var(--dark-grey, black);
+}
+
+.about-me .description {
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  font-size: 33px;
+  color: var(--grey, black);
 }
