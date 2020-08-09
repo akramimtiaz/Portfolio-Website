@@ -13,12 +13,12 @@ main {
 }
 
 .about-me {
+  width: 95vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start; 
   align-self: center;
   border: .5px solid red;
-  width: 95vw;
 }
 
 .about-me .header {
