@@ -12,19 +12,22 @@ main {
   justify-content: flex-start;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.about-me {
+section {
   width: 95vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start; 
   align-self: center;
   border: .5px solid red;
-  margin-bottom: 10vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-me {
+  margin-bottom: 5vh;
 }
 
 .about-me .header {
@@ -41,4 +44,23 @@ img {
   font-size: 6vw;
   line-height: 1.2;
   color: var(--grey, black);
+}
+
+.general-info {
+  margin-bottom: 5vh;
+}
+
+.general-info .header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 9vw;
+  color: var(--dark-grey, black);
+  margin-bottom: 2vh;
+}
+
+.general-info .description {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 4vw;
+  color: var(--dark-grey, black);
 }
