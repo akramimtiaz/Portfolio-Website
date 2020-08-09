@@ -10,7 +10,6 @@
 main {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 section {
@@ -27,7 +26,14 @@ img {
   height: auto;
 }
 
+.introduction {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-blue, lightblue);
+}
+
 .about-me {
+  margin-top: 3vh;
   margin-bottom: 5vh;
 }
 
@@ -64,4 +70,8 @@ img {
   font-weight: 400;
   font-size: 4vw;
   color: var(--dark-grey, black);
+}
+
+.photo {
+  margin-bottom: 5vh;
 }
